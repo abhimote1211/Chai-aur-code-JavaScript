@@ -1,7 +1,9 @@
 const accountId = 123456
 let accountEmail = "abhishekmote1211@gmail.com"
 var accountPassword = "12345"
-accountCity = "Pune"  
+accountCity = "Pune" 
+let accountState; //undefined
+let accountCountry = null; //null
 
 //accountId = 2 not allowed
 
@@ -11,4 +13,4 @@ accountCity = "Mumbai"
 
 console.log(accountId);
 
-console.table([accountId, accountEmail, accountPassword, accountCity]);
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState, accountCountry]);
