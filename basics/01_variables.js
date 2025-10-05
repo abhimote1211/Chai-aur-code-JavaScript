@@ -1,7 +1,7 @@
-const accountId = 123456
-let accountEmail = "abhishekmote1211@gmail.com"
-var accountPassword = "12345"
-accountCity = "Pune" 
+const accountId = 123456    //recommended to use const
+let accountEmail = "abhishekmote1211@gmail.com"  //recommended to use let
+var accountPassword = "12345"   //not recommended to use var
+accountCity = "Pune"   //global variable
 let accountState; //undefined
 let accountCountry = null; //null
 
