@@ -33,3 +33,4 @@ console.log(typeof null);  //bug in JS, it should return 'object'
 console.log(typeof undefined);
 console.log(typeof age);
 console.log(typeof isApproved);
+console.log(typeof selectedColor);
